@@ -43,7 +43,7 @@ body {
 }
 
 
-@media (max-width: 580px) {
+@media (max-width: 570px) {
     #imgheader{
         background-size: cover;
         height: 50vh;
@@ -53,7 +53,7 @@ body {
         padding: 5px;
     }
     #searchbar {
-        margin-top: 40%;
+        margin-top: 150px;
         
     }
 }
