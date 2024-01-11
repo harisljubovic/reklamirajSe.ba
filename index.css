@@ -18,6 +18,9 @@ body {
     
 }
 
+#visitsarajevo {
+    margin-top: 50px;
+}
 
 @media (max-width: 940px) {
 #mainNavbar {
@@ -26,17 +29,16 @@ body {
     
 }
 
-
 @media (max-width: 570px) {
    
     #mainNavbar {
         padding: 5px;
     }
-   /* #headerimg {
-    display: none;
-   } */
 }
 
-
-
-
+@media (max-width: 350px) {
+   
+    #navimg {
+        display: none;
+    }
+}
