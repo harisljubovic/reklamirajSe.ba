@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(220, 231, 229);
+    font-family: "Nanum Gothic";
+    padding: 0;   
+}
+
+#navimg {
+    width: 200px;
+    height: 30px;
+}
+
+#btn-img {
+    width: 30px;
+}
+
+#mainNavbar {
+    padding: 100px;
+    
+}
+
+#imgheader {
+    position: relative;
+    background: url(./img/sarajevo_wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    margin-top: 40px;
+}
+
+#searchbar {
+    position: absolute;
+    top: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1200px) {
+   
+    #searchbar {
+        position: absolute;
+        top: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 940px) {
+   
+    #mainNavbar {
+        padding: 10px;
+    }
+    #searchbar {
+        position: absolute;
+        top: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 580px) {
+    #imgheader{
+        background-size: cover;
+        height: 50vh;
+        background-position: center;
+    }
+    #mainNavbar {
+        padding: 5px;
+    }
+
+    #searchbar {
+        position: absolute;
+        top: 25vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
