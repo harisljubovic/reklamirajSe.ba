@@ -28,37 +28,20 @@ body {
 }
 
 #searchbar {
-    position: absolute;
-    top: 50vh;
+    margin-top: 20%;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-@media (max-width: 1200px) {
-   
-    #searchbar {
-        position: absolute;
-        top: 40vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
+
 
 @media (max-width: 940px) {
-   
-    #mainNavbar {
-        padding: 10px;
+#mainNavbar {
+    padding: 10px;
     }
-    #searchbar {
-        position: absolute;
-        top: 30vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    
 }
+
 
 @media (max-width: 580px) {
     #imgheader{
@@ -69,13 +52,9 @@ body {
     #mainNavbar {
         padding: 5px;
     }
-
     #searchbar {
-        position: absolute;
-        top: 25vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        margin-top: 40%;
+        
     }
 }
 
