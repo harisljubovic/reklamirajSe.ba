@@ -39,6 +39,7 @@ body {
     padding: 10px;
     border-top: 1px solid #5ccce8 ;
     border-bottom: 1px solid #5ccce8;
+    text-transform: uppercase;
 }
 
 .dropdown-text-style:hover {
