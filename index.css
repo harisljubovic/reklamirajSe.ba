@@ -4,41 +4,85 @@ body {
     padding: 0;   
 }
 
+#mainNavbar {
+    padding: 20px 100px 20px 100px;
+}
+
+
 #navimg {
     width: 200px;
-    height: 30px;
 }
 
 #btn-img {
     width: 30px;
 }
 
-#mainNavbar {
-    padding: 100px;
-    
+.nav-text-color {
+    color: #5ccce8;
 }
+
+.nav-text-color:focus {
+    color: #5ccce8;
+}
+
+.nav-text-color:hover {
+    background-color: rgb(51, 51, 51);
+    color: #5ccce8;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: background-color 350ms ease;
+}
+
+.dropdown-text-style {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-top: 1px solid #5ccce8 ;
+    border-bottom: 1px solid #5ccce8;
+}
+
+.dropdown-text-style:hover {
+    background-color: rgb(51, 51, 51);
+    color: #5ccce8;
+    transition: background-color 350ms ease;
+}
+
 
 #visitsarajevo {
     margin-top: 50px;
 }
 
-@media (max-width: 940px) {
+@media (max-width: 980px) {
 #mainNavbar {
-    padding: 10px;
+    padding: 20px 5px 20px 5px;
+    }
+    #navimg {
+        width: 180px;
+        height: 30px;
     }
     
 }
 
-@media (max-width: 570px) {
+@media (max-width: 767px) {
    
     #mainNavbar {
-        padding: 5px;
+        padding: 20px 50px 20px 50px;
     }
 }
 
-@media (max-width: 355px) {
+@media (max-width: 420px) {
    
     #navimg {
-        display: none;
+        width: 130px;
+        height: 20px;
+    }
+    #mainNavbar {
+        padding: 20px 0 20px 0;
+    }
+    #togglerButton {
+        margin-right: 15px;
+    }
+    .dropdown-text-style {
+        background-color: rgb(83, 83, 83);
     }
 }

@@ -21,88 +21,86 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="./index.css" />
-    <title>nađiMe.ba | Sve potrebno na jednom mjestu</title>
+    <title>reklamirajSe.ba | Neka za vas svi čuju</title>
   </head>
   <body>
     <!------------------------- NAVBAR ------------------------->
 
     <nav
       id="mainNavbar"
-      class="navbar navbar-light bg-dark navbar-expand-md py-0"
+      class="navbar navbar-light bg-dark navbar-expand-md h-50"
     >
       <a href="#" class="navbar-brand ms-4"
-        ><img id="btn-img" src="./img/btn-img.png" alt="" /><img
+        ><img
           id="navimg"
-          src="./img/nađime_logo.png"
+          src="./img/page_logo.png"
           alt="logo_img"
-        />
+          class="pe-1"
+        /><img id="btn-img" src="./img/btn-img.png" alt="" />
       </a>
       <button
-        class="navbar-toggler bg-light m-2"
+        id="togglerButton"
+        class="navbar-toggler bg-light"
         data-toggle="collapse"
         data-target="#navLinks"
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse me-4" id="navLinks">
+      <div
+        class="collapse navbar-collapse me-4 bg-dark ms-3 text-center"
+        id="navLinks"
+      >
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a href="./index.html" class="nav-link text-light">POČETNA</a>
+            <a href="./index.html" class="nav-link nav-text-color">POČETNA</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link nav-text-color">O NAMA</a>
           </li>
           <li class="nav-item dropdown">
             <a
-              class="nav-link dropdown-toggle text-light"
+              class="nav-link dropdown-toggle nav-text-color"
               href="#"
               role="button"
               data-toggle="dropdown"
               aria-expanded="false"
             >
-              OBJEKTI
+              PARTNERI
             </a>
-            <ul class="dropdown-menu bg-dark">
+            <ul class="dropdown-menu bg-dark mt-3 py-0">
               <li>
-                <a class="dropdown-item text-secondary" href="#">Ambulante</a>
-              </li>
-              <li>
-                <a class="dropdown-item text-secondary" href="#">Kafići</a>
-              </li>
-              <li>
-                <a class="dropdown-item text-secondary" href="#">Restorani</a>
-              </li>
-              <li>
-                <a class="dropdown-item text-secondary" href="#"
-                  >Veterinarske stanice</a
+                <a class="dropdown-item dropdown-text-style" href="#"
+                  >Ugostiteljski objekti</a
                 >
               </li>
               <li>
-                <a class="dropdown-item text-secondary" href="#"
-                  >Pet Grooming Centri</a
+                <a class="dropdown-item dropdown-text-style" href="#"
+                  >Zdrava hrana</a
                 >
               </li>
               <li>
-                <a class="dropdown-item text-secondary" href="#"
-                  >Frizerski saloni</a
+                <a class="dropdown-item dropdown-text-style" href="#"
+                  >Zdravlje i ljepota</a
                 >
               </li>
               <li>
-                <a class="dropdown-item text-secondary" href="#"
-                  >Saloni ljepote</a
+                <a class="dropdown-item dropdown-text-style" href="#"
+                  >Kućni ljubimci</a
                 >
               </li>
               <li>
-                <a class="dropdown-item text-secondary" href="#">Kopirnice</a>
+                <a class="dropdown-item dropdown-text-style" href="#"
+                  >Sportske aktivnosti</a
+                >
               </li>
             </ul>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link text-light">PARTNERI</a>
+            <a href="" class="nav-link nav-text-color">SARADNJA</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link text-light">O NAMA</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link text-light">KONTAKT</a>
+            <a href="" class="nav-link nav-text-color">KONTAKT</a>
           </li>
         </ul>
       </div>
