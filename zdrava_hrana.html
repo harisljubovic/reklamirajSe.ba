@@ -24,13 +24,19 @@
     <title>reklamirajSe.ba | Neka za vas svi čuju</title>
   </head>
   <body>
+    <!-- -------------------------------------------------------------------- -->
+
+    <!-- IDEJA KAKO BI MOGLO IZGLEDATI -->
+
+    <!-- -------------------------------------------------------------------- -->
+
     <!------------------------- NAVBAR ------------------------->
 
     <nav
       id="mainNavbar"
       class="navbar navbar-light bg-dark navbar-expand-md h-50"
     >
-      <a href="/index.html" class="navbar-brand"
+      <a href="index.html" class="navbar-brand"
         ><img
           id="navimg"
           src="./img/page_logo.png"
@@ -69,7 +75,7 @@
               <li>
                 <a
                   class="dropdown-item dropdown-text-style"
-                  href="./zdrava_hrana.html"
+                  href="#zdrava-hrana"
                   >Zdrava hrana</a
                 >
               </li>
@@ -103,98 +109,68 @@
         </ul>
       </div>
     </nav>
-    <!------------------------- HEADER ------------------------->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="p-0 position-relative">
-          <img
-            id="headerimg"
-            src="./img/header-img.png"
-            alt=""
-            class="img-fluid w-100"
-          />
-        </div>
-      </div>
-    </div>
     <!-- -------------------------------------------------------------------------------------- -->
-
-    <div
-      id="carouselExampleIndicators"
-      class="carousel slide border-5 border-top border-info"
-    >
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
+    <div class="container-fluid my-5" id="zdrava-hrana">
+      <div class="row">
+        <h1 class="text-center fst-italic">Zdrava hrana</h1>
+        <div
+          class="col-lg col-md-6 p-3 text-center mb-5 clientBorders expaned-div"
+        >
+          <h6 class="display-6 fst-italic">
+            Frutko <img src="./img/fruit.png" width="30px" alt="" />
+          </h6>
+          <p class="m-0">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
+            debitis eveniet qui in quidem magnam perferendis quo id similique
+            animi.
+          </p>
+        </div>
+        <div
+          class="col-lg col-md-6 p-3 text-center mb-5 clientBorders expaned-div"
+        >
+          <h6 class="display-6 fst-italic">
+            Pijaca Novi Grad <img src="./img/fruit.png" width="30px" alt="" />
+          </h6>
+          <p class="m-0">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
+            debitis eveniet qui in quidem magnam perferendis quo id similique
+            animi.
+          </p>
+        </div>
+        <div
+          class="col-lg col-md-6 p-3 text-center mb-5 clientBorders expaned-div"
+        >
+          <h6 class="display-6 fst-italic">
+            Eko Proizvodi <img src="./img/fruit.png" width="30px" alt="" />
+          </h6>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
+            debitis eveniet qui in quidem magnam perferendis quo id similique
+            animi.
+          </p>
+        </div>
+        <div
+          class="col-lg col-md-6 p-3 text-center mb-5 clientBorders expaned-div"
+        >
+          <h6 class="display-6 fst-italic">
+            Malak Farm <img src="./img/fruit.png" width="30px" alt="" />
+          </h6>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
+            debitis eveniet qui in quidem magnam perferendis quo id similique
+            animi.
+          </p>
+        </div>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="./img/frutko_main_page.png"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="./img/handemade_jasminka_main_page.png"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="./img/haris_ljubovic_main_page.png"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
-
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
       crossorigin="anonymous"
     ></script>
     <script
