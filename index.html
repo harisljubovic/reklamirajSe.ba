@@ -105,7 +105,7 @@
     </nav>
     <!------------------------- HEADER ------------------------->
     <div class="container-fluid">
-      <div class="row">
+      <div class="row d-flex justify-content-center">
         <div class="p-0 position-relative">
           <img
             id="headerimg"
@@ -113,6 +113,23 @@
             alt=""
             class="img-fluid w-100"
           />
+        </div>
+        <div class="input-group rounded position-absolute w-50 mt-2">
+          <input
+            type="search"
+            class="form-control rounded d-none d-sm-block"
+            placeholder="Pretraži"
+            aria-label="Search"
+            aria-describedby="search-addon"
+          />
+
+          <button
+            type="button"
+            class="btn btn-dark btn-outline-light ms-2 rounded d-none d-sm-block"
+            data-mdb-ripple-init
+          >
+            Search
+          </button>
         </div>
       </div>
     </div>
@@ -173,7 +190,6 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
