@@ -42,7 +42,7 @@ body {
 }
 
 .dropdown-text-style:hover {
-    background-color: rgb(51, 51, 51);
+    background-color: #333333;
     color: #b2dfea;
     transition: background-color 350ms ease;
 }
@@ -52,6 +52,12 @@ body {
     background-color: #b2dfea;
     transition: background-color 500ms ease;
     border-radius: 20px;
+}
+
+#search-button:hover {
+    background-color: lightgray;
+    transition: background-color 500ms ease;
+    border: 1px solid black;
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
