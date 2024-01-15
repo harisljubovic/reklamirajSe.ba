@@ -32,17 +32,19 @@
 
     <!------------------------- NAVBAR ------------------------->
 
+    <!------------------------- NAVBAR ------------------------->
+
     <nav
       id="mainNavbar"
       class="navbar navbar-light bg-dark navbar-expand-md h-50"
     >
-      <a href="index.html" class="navbar-brand"
+      <a href="/index.html" class="navbar-brand"
         ><img
           id="navimg"
           src="./img/page_logo.png"
           alt="logo_img"
           class="pe-1"
-        /><img id="btn-img" src="./img/btn-img.png" alt="" />
+        />
       </a>
       <button
         id="togglerButton"
@@ -75,7 +77,7 @@
               <li>
                 <a
                   class="dropdown-item dropdown-text-style"
-                  href="#zdrava-hrana"
+                  href="./zdrava_hrana.html"
                   >Zdrava hrana</a
                 >
               </li>
@@ -109,6 +111,32 @@
         </ul>
       </div>
     </nav>
+    <!------------------------- HEADER ------------------------->
+    <div class="container-fluid">
+      <div class="row d-flex justify-content-center">
+        <div
+          class="input-group rounded position-absolute w-75 mt-2 mb-4"
+          id="search_input"
+        >
+          <input
+            type="search"
+            class="form-control rounded border-2 border-dark"
+            placeholder="Pretraži"
+            aria-label="Search"
+            aria-describedby="search-addon"
+          />
+
+          <button
+            id="search-button"
+            type="button"
+            class="btn btn-dark btn-outline-light ms-2 rounded"
+            data-mdb-ripple-init
+          >
+            Search
+          </button>
+        </div>
+      </div>
+    </div>
     <!-- -------------------------------------------------------------------------------------- -->
     <div class="container-fluid my-5" id="zdrava-hrana">
       <div class="row">
@@ -116,7 +144,7 @@
         <div
           class="col-lg col-md-6 p-3 text-center mb-5 clientBorders expaned-div"
         >
-          <h6 class="display-6 fst-italic">
+          <h6 class="display-6 fst-italic" id="frutko">
             Frutko <img src="./img/fruit.png" width="30px" alt="" />
           </h6>
           <p class="m-0">

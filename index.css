@@ -3,17 +3,19 @@ body {
     padding: 0;   
 }
 
+/* NAVBAR */
+
 #mainNavbar {
-    padding: 20px 30px 20px 30px;
+    padding: 20px 150px 20px 150px;
 }
 
 
 #navimg {
-    width: 300px;
+    width: 80px;
 }
 
-#btn-img {
-    width: 30px;
+#navLinks {
+    font-size: 1.8rem;
 }
 
 .nav-text-color {
@@ -47,6 +49,21 @@ body {
     transition: background-color 350ms ease;
 }
 
+/* SEARCH BAR */
+.buttonsOnHover:hover {
+    background-color: lightgray;
+    transition: background-color 500ms ease;
+    border: 1px solid black;
+}
+
+/* MAIN CONTENT */
+
+#card_shadow:hover {
+    box-shadow: 0 2px 1px rgba(0,0,0,0.09), 0 4px 2px rgba(0,0,0,0.09), 0 8px 4px rgba(0,0,0,0.09), 0 16px 8px rgba(0,0,0,0.09), 0 32px 16px rgba(0,0,0,0.09);
+}
+
+/* ZDRAVA HRANA */
+
 .expaned-div:hover {
     cursor: pointer;
     background-color: #b2dfea;
@@ -54,31 +71,26 @@ body {
     border-radius: 20px;
 }
 
-#search-button:hover {
-    background-color: lightgray;
-    transition: background-color 500ms ease;
-    border: 1px solid black;
-}
+/* --------------------MEDIA QUERY-s-------------------- */
 
-@media (max-width: 991px) and (min-width: 768px) {
+@media (max-width: 991px) {
     #navimg {
-        width: 200px;
+        width: 60px;
     }
     
     #mainNavbar {
-        padding: 20px 20px 20px 20px;
+        padding: 20px 120px 20px 120px;
     }
 
-    .clientBorders {
-        border: 1px solid #5ccce8;
+    #navLinks {
+        font-size: 1.3rem;
     }
-    
 }
 
 @media (max-width: 767px) {
    
     #mainNavbar {
-        padding: 20px 50px 20px 50px;
+        padding: 20px 100px 20px 100px;
     }
     .dropdown-text-style {
         background-color: rgb(83, 83, 83);
@@ -89,18 +101,22 @@ body {
     }
 }
 
-@media (max-width: 420px) {
-   
+@media (max-width: 575px) {
+
     #navimg {
-        width: 200px;
-        height: 20px;
+        width: 50px;
+        
     }
     #mainNavbar {
-        padding: 20px 10px 20px 10px;
-    }
-    #togglerButton {
-        margin-right: 15px;
+        padding: 20px 80px 20px 80px;
     }
 
+    #search_input {
+        position: relative!important;
+    }
+
+    #card_shadow {
+        box-shadow: 0 2px 1px rgba(0,0,0,0.09), 0 4px 2px rgba(0,0,0,0.09), 0 8px 4px rgba(0,0,0,0.09), 0 16px 8px rgba(0,0,0,0.09), 0 32px 16px rgba(0,0,0,0.09);
+    }
     
 }

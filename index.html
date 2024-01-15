@@ -36,7 +36,7 @@
           src="./img/page_logo.png"
           alt="logo_img"
           class="pe-1"
-        /><img id="btn-img" src="./img/btn-img.png" alt="" />
+        />
       </a>
       <button
         id="togglerButton"
@@ -106,7 +106,7 @@
     <!------------------------- HEADER ------------------------->
     <div class="container-fluid">
       <div class="row d-flex justify-content-center">
-        <div class="p-0 position-relative">
+        <div class="p-0 position-relative d-none d-sm-block">
           <img
             id="headerimg"
             src="./img/header-img.png"
@@ -114,19 +114,21 @@
             class="img-fluid w-100"
           />
         </div>
-        <div class="input-group rounded position-absolute w-50 mt-2">
+        <div
+          class="input-group rounded position-absolute w-75 mt-2 mb-4"
+          id="search_input"
+        >
           <input
             type="search"
-            class="form-control rounded border-2 border-dark d-none d-sm-block"
+            class="form-control rounded border-2 border-dark"
             placeholder="Pretraži"
             aria-label="Search"
             aria-describedby="search-addon"
           />
 
           <button
-            id="search-button"
             type="button"
-            class="btn btn-dark btn-outline-light ms-2 rounded d-none d-sm-block"
+            class="btn btn-dark btn-outline-light ms-2 rounded buttonsOnHover"
             data-mdb-ripple-init
           >
             Search
@@ -134,63 +136,73 @@
         </div>
       </div>
     </div>
-    <!-- -------------------------------------------------------------------------------------- -->
 
-    <div
-      id="carouselExampleIndicators"
-      class="carousel slide border-5 border-top border-info"
-    >
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="./img/frutko_main_page.png"
-            class="d-block w-100"
-            alt="..."
-          />
+    <!-- -----------------------MAIN CONTENT--------------------------- -->
+
+    <div class="container mt-sm-5">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card mb-5" id="card_shadow">
+            <img
+              class="card-img-top"
+              src="./img/frutko_main_page.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Vaša dnevna doza vitamina</h5>
+              <p class="card-text">
+                &#127826; Sve vrste svježeg voća i povrća.
+              </p>
+              <p class="card-text">&#129475; Cijeđeni sokovi.</p>
+              <a
+                href="./zdrava_hrana.html#frutko"
+                class="btn btn-dark btn-outline-light rounded buttonsOnHover"
+                >Više informacija</a
+              >
+            </div>
+          </div>
         </div>
-        <div class="carousel-item">
-          <img
-            src="./img/handemade_jasminka_main_page.png"
-            class="d-block w-100"
-            alt="..."
-          />
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card mb-5" id="card_shadow">
+            <img
+              class="card-img-top"
+              src="./img/handemade_jasminka_main_page.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Unikatno i toplo</h5>
+              <p class="card-text">&#129526; Ručno rađeni proizvodi od vune.</p>
+              <p class="card-text">&#127873; Obradujte sebi dragu osobu.</p>
+              <a
+                href="#"
+                class="btn btn-dark btn-outline-light rounded buttonsOnHover"
+                >Više informacija</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card mb-5" id="card_shadow">
+            <img
+              class="card-img-top"
+              src="./img/haris_ljubovic_main_page.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Neka ideja postane stvarnost</h5>
+              <p class="card-text">&#128187; Vi zamislite mi kreiramo.</p>
+              <p class="card-text">&#128200; Promovišite Vaš biznis.</p>
+              <a
+                href="#"
+                class="btn btn-dark btn-outline-light rounded buttonsOnHover"
+                >Više informacija</a
+              >
+            </div>
+          </div>
         </div>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
+
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
