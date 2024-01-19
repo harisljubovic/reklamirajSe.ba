@@ -15,7 +15,14 @@ body {
 }
 
 #navLinks {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
+}
+
+#navLinks > ul > li {
+    border-bottom: 1px solid #b2dfea;
+    border-top: 1px solid #b2dfea;
+    border-radius: 15px;
+    margin-right: 10px;
 }
 
 .nav-text-color {
@@ -29,18 +36,20 @@ body {
 .nav-text-color:hover {
     background-color: rgb(51, 51, 51);
     color: #b2dfea;
-    border: 1px solid white;
-    border-radius: 5px;
+    border-left: 1px solid #b2dfea;
+    border-right: 1px solid #b2dfea;
+    border-radius: 15px;
     transition: background-color 350ms ease;
 }
 
 .dropdown-text-style {
     text-align: center;
-    color: white;
+    color: #ffffff;
     padding: 10px;
     border-top: 1px solid #b2dfea ;
     border-bottom: 1px solid #b2dfea;
     text-transform: uppercase;
+    
 }
 
 .dropdown-text-style:hover {
@@ -49,17 +58,28 @@ body {
     transition: background-color 350ms ease;
 }
 
+
 /* SEARCH BAR */
 .buttonsOnHover:hover {
     background-color: lightgray;
     transition: background-color 500ms ease;
     border: 1px solid black;
+    font-weight: 600;
 }
 
 /* MAIN CONTENT */
 
 #card_shadow:hover {
-    box-shadow: 0 0 20px #00ffbb, 0 0 40px #0081bc;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* BLOG */
+
+.blog-imgs {
+    margin: 10px auto;
+    max-width: 100px;
+
+    
 }
 
 /* ZDRAVA HRANA */
@@ -83,7 +103,7 @@ body {
     }
 
     #navLinks {
-        font-size: 1.3rem;
+        font-size: .9rem;
     }
 }
 
@@ -92,12 +112,23 @@ body {
     #mainNavbar {
         padding: 20px 100px 20px 100px;
     }
-    .dropdown-text-style {
-        background-color: rgb(83, 83, 83);
+
+    #navLinks > ul {
+        margin-top: 15px;
     }
 
-    .clientBorders {
-        border-bottom: 2px solid #5ccce8;
+    #navLinks > ul > li {
+        margin-bottom: 15px;
+    }
+    .dropdown-menu {
+        border: 0;
+    }
+
+    .dropdown-text-style {
+        color:#ffffff;
+        background-color: #33373b;;
+        border-bottom: 0px;
+        margin-bottom: 15px;
     }
 }
 
@@ -110,13 +141,8 @@ body {
     #mainNavbar {
         padding: 20px 80px 20px 80px;
     }
-
+ 
     #search_input {
         position: relative!important;
-    }
-
-    #card_shadow {
-        box-shadow: 0 2px 1px rgba(0,0,0,0.09), 0 4px 2px rgba(0,0,0,0.09), 0 8px 4px rgba(0,0,0,0.09), 0 16px 8px rgba(0,0,0,0.09), 0 32px 16px rgba(0,0,0,0.09);
-    }
-    
+    }    
 }
