@@ -1,7 +1,7 @@
 /* GENERAL */
 
 body {
-    background-color: #dce7e5;
+    background-color: #b2dfea;
     padding: 0;   
 }
 
@@ -13,7 +13,7 @@ h2 {
     letter-spacing: 2px;
     word-spacing: 5px;
     font-size: 2.5rem;
-    background-color: #b2dfea75;
+    background-color: #b8b8b945;
 }
 
 .buttonsOnHover:hover {
@@ -87,6 +87,10 @@ h2 {
 
 .main-imgs {
     max-width:100%;    
+}
+
+.main-content {
+    border: 1px solid #00000077;
 }
 
 .main-content-btn-img {
