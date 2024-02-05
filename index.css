@@ -126,6 +126,7 @@ h2 {
 
 .main-content-btn {
     float: right;
+    border: none;
 }
 
 .main-content-btn:hover {
@@ -142,6 +143,7 @@ h2 {
 
 .mainpage-blog-section-read-more {
     float: right;
+    border: none;
 }
 
 /* GLAVNA STRANICA BLOGA */
@@ -175,6 +177,8 @@ h2 {
     width: 80px;
     
 }
+
+
 
 /* FOOTER */
 
@@ -284,7 +288,7 @@ footer {
         padding: 20px 80px 20px 80px;
     }
  
-    #search_input {
+    #search-form {
         position: relative!important;
     }    
 

@@ -119,10 +119,10 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="#blog" class="nav-link nav-text-color">BLOG</a>
+            <a href="./blog.html" class="nav-link nav-text-color">BLOG</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link nav-text-color">KONTAKT</a>
+            <a href="./kontakt.html" class="nav-link nav-text-color">KONTAKT</a>
           </li>
         </ul>
       </div>
@@ -148,11 +148,14 @@
           class="p-0 mb-4 img-fluid w-100 d-block d-sm-none d-md-none d-lg-none d-xl-none"
         />
 
-        <div
+        <form
+          id="search-form"
+          method="get"
+          action="http://www.google.com/search"
           class="input-group rounded position-relative w-75 mt-4 mb-5"
-          id="search_input"
         >
           <input
+            id="search_input"
             type="search"
             class="form-control rounded border-2 border-dark"
             placeholder="Pretraži"
@@ -161,13 +164,13 @@
           />
 
           <button
-            type="button"
+            type="submit"
             class="btn btn-dark btn-outline-light ms-2 rounded buttonsOnHover"
             data-mdb-ripple-init
           >
             Search
           </button>
-        </div>
+        </form>
       </div>
     </div>
 
