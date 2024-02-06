@@ -152,7 +152,7 @@
           id="search-form"
           method="get"
           action="http://www.google.com/search"
-          class="input-group rounded position-relative w-75 mt-4 mb-5"
+          class="input-group rounded position-relative w-75 mt-5 mb-5"
         >
           <input
             id="search_input"
@@ -174,44 +174,96 @@
       </div>
     </div>
 
-    <!-- KONTAKT -->
+    <!-------------------------KONTAKT ------------------------------------>
+
+    <div class="container-fluid">
+      <div class="row py-5" id="kontakt_page_img">
+        <div
+          class="col-lg-6 my-auto d-flex justify-content-center align-items-center"
+          id="kontakt_page_form"
+        >
+          <form id="contactForm" class="w-75">
+            <h2 class="text-light text-center mb-5 fs-4">POŠALJITE PORUKU</h2>
+            <div class="form-floating mb-4">
+              <input
+                class="form-control"
+                id="name"
+                type="text"
+                placeholder="Name"
+                data-sb-validations="required"
+              />
+              <label for="name">Ime i prezime:</label>
+            </div>
+            <div class="form-floating mb-4">
+              <input
+                class="form-control"
+                id="emailAddress"
+                type="email"
+                placeholder="Email Address"
+                data-sb-validations="required,email"
+              />
+              <label for="emailAddress">Email adresa:</label>
+            </div>
+            <div class="form-floating mb-4">
+              <textarea
+                class="form-control"
+                id="message"
+                type="text"
+                placeholder="Message"
+                style="height: 10rem"
+                data-sb-validations="required"
+              ></textarea>
+              <label for="message">Poruka:</label>
+            </div>
+            <div class="d-grid">
+              <button
+                class="btn btn-dark btn-outline-light rounded buttonsOnHover border border-info"
+                id="submitButton"
+                type="submit"
+              >
+                Pošalji
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div
+        class="row d-flex justify-content-around py-5 contact-soc-media-bg my-2"
+      >
+        <h2 class="text-light text-center py-3">
+          PRONAĐITE NAS NA DRUŠTVENIM MREŽAMA:
+        </h2>
+        <div class="col-lg-3 col-md-12 d-flex justify-content-center p-5">
+          <a href="https://www.facebook.com" target="_blank"
+            ><img
+              src="./img/facebook-contact.png"
+              class="socmedia-contact-img"
+              alt=""
+          /></a>
+        </div>
+        <div class="col-lg-3 col-md-12 d-flex justify-content-center p-5">
+          <a href="https://www.instagram.com" target="_blank"
+            ><img
+              src="./img/instagram-contact.png"
+              class="socmedia-contact-img"
+              alt=""
+          /></a>
+        </div>
+        <div class="col-lg-3 col-md-12 d-flex justify-content-center p-5">
+          <a href="https://www.linkedin.com" target="_blank"
+            ><img
+              src="./img/linkedin-contact.png"
+              class="socmedia-contact-img"
+              alt=""
+          /></a>
+        </div>
+      </div>
+    </div>
 
     <!-------------------------FOOTER ------------------------------------>
 
-    <div class="mt-5">
+    <div>
       <footer class="bg-dark text-center text-white">
-        <div class="container p-4 pb-0">
-          <section class="mb-4">
-            <a
-              class="btn btn-outline-info btn-floating footer-icon fs-5"
-              href="https://www.facebook.com"
-              target="_blank"
-              role="button"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-            <a
-              class="btn btn-outline-info btn-floating footer-icon fs-5"
-              href="https://www.gmail.com"
-              target="_blank"
-              role="button"
-              ><i class="fab fa-google"></i
-            ></a>
-            <a
-              class="btn btn-outline-info btn-floating footer-icon fs-5"
-              href="https://www.instagram.com"
-              target="_blank"
-              role="button"
-              ><i class="fab fa-instagram"></i
-            ></a>
-            <a
-              class="btn btn-outline-info btn-floating footer-icon fs-5"
-              href="https://www.linkedin.com"
-              target="_blank"
-              role="button"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-          </section>
-        </div>
         <div class="text-center p-3 copyr-bg-footer fs-5">
           © 2020 Copyright:
           <a class="text-white text-decoration-none" href="./index.html"

@@ -214,6 +214,35 @@ footer {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+/* KONTAKT */
+
+#kontakt_page_img {
+    background-image: url(./img/contact-us-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+        
+}
+
+.socmedia-contact-img {
+    width: 200px;
+}
+
+.socmedia-contact-img:hover{
+    filter: drop-shadow(#ffffff 0px 0px 10px);
+    
+}
+
+.contact-soc-media-bg {
+    background-image: url(./img/contact-soc-media-bg.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
 /* --------------------MEDIA QUERY-s-------------------- */
 
 @media (max-width: 992px) {
@@ -299,4 +328,16 @@ footer {
     .footer-icon {
         margin: 0 20px 0 20px;
     }
+
+    #kontakt_page_img {
+        background-size: cover;
+        background-position:70%;
+        height: auto;
+    }
+
+    .socmedia-contact-img {
+        width: 150px;
+        
+    }
+
 }
